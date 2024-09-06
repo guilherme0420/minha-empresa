@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 30px 23px;
+}
+.cabecalho ul{
+    display: flex;
+    gap: 20px;
+}
+.cabecalho a{
+    color: white;
+}
