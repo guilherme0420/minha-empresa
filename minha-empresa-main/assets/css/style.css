@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 30px 23px;
+}
+
+.cabecalho ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cabecalho a {
+    color: white;
+}
+
+.main {
+    padding: 30px 23px;
+    background-color: rgb(212, 212, 212);
+}
+
+.minhaempresa h1 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.minhaempresa button {
+    display: flex;
+    margin-top: 10px;
+}
+
+.historia {
+    display: flex;
+    flex-direction: column;
+}
+
+.historia h1 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.trajetoria h2 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.valores h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato h1 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.contato h2 {
+    margin-left: 10px;
+}
+
+.contato iframe {
+    margin-left: 10px;
+    margin-top: 10px;
+}

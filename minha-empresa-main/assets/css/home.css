@@ -1,0 +1,42 @@
+.pai {
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+}
+
+.pai div {
+    width: 50%;
+}
+
+.pai .img img {
+    width: 100%;
+}
+
+.pai .minhaempresa button{
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 0px 0px;
+    background-color: rgb(56, 56, 56);
+    color: rgb(228, 228, 228);
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+}
+.pai .minhaempresa button:hover{
+    background-color: rgb(75, 74, 74);
+}
+.pai .minhaempresa h1, .newsletter h2{
+    text-transform: uppercase;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsletter .filho-a{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
