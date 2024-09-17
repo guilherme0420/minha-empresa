@@ -37,6 +37,9 @@
     padding-bottom: 10px;
 }
 
+.rodape{
+    background-color: gray;
+}
 .minhaempresa button {
     display: flex;
     margin-top: 10px;
