@@ -1,0 +1,62 @@
+.pai {
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+}
+
+.pai div {
+    width: 50%;
+}
+
+.pai .img img {
+    width: 100%;
+}
+
+.pai .minhaempresa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pai .minhaempresa button{
+    border: 2px black solid;
+    border-radius: 4px;
+    background-color: rgb(56, 56, 56);
+    color: rgb(228, 228, 228);
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+}
+.pai .minhaempresa button:hover{
+    background-color: rgb(75, 74, 74);
+}
+.pai .minhaempresa h1, .newsletter h2{
+    text-transform: uppercase;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter form input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+@media screen and (max-width: 780px) {
+    .newsletter form{
+        display: flex;
+        gap: 6px;
+    }
+    
+}
+
+@media screen and (max-width: 733px) {
+    .pai{
+        flex-direction: column-reverse;
+    } 
+    .pai div {
+        width: 100%;
+    }  
+}
