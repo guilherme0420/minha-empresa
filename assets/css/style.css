@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .cabecalho {
@@ -21,6 +19,18 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    list-style: none;
+}
+
+
+
+.cabecalho ul li:hover {
+    text-decoration: white underline;
+
+}
+
+.select {
+    text-decoration: 2px white underline;
 }
 
 .cabecalho a {
@@ -73,13 +83,15 @@
     border-radius: 4px;
     box-shadow: black 3px 3px 3px;
     background-color: black;
-    align-items: center;
 }
 
 .btn:hover {
+    width: 200px;
+    padding: 6px;
     background-color: gray;
     box-shadow: gray 3px 3px 3px;
-    border: 2px rgb(77, 77, 77) solid;
+    border: 1px rgb(77, 77, 77) solid;
+    border-radius: 4px;
     color: rgb(70, 69, 69);
 }
 
@@ -93,6 +105,7 @@
 .historia {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .historia h1 {
@@ -100,6 +113,8 @@
     margin-left: 30px;
     margin-top: 10px;
 }
+
+
 
 .trajetoria h2 {
     margin-left: 30px;
@@ -111,6 +126,11 @@
 .valores h3 {
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.valores summary:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .contato {
@@ -135,11 +155,19 @@
 }
 
 @media screen and (max-width: 500px) {
-    .cabecalho .menu{
+    .cabecalho .menu {
         display: flex;
     }
-    nav{
-    display: none;
+
+    nav {
+        display: none;
     }
-    
+
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        padding: 10px;
+    }
+
 }

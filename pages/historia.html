@@ -5,30 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Guilherme Dias">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="../assets/empresa.icon.png" type="image/x-icon">
     <title>História</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <div class="body">
-
     <body>
-        <div class="cabecalho">
+        <header class="cabecalho">
             <img src="../assets/empresa.png" alt="empresa" width="50px" height="50px">
-            <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./historia.html">História</a>
-                </li>
-                <li>
-                    <a href="./contato.html">Contato</a>
-                </li>
-            </ul>
-        </div>
-        <div class="main">
-            <div class="historia">
-                <h1>História</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="select">
+                        <a href="./historia.html">História</a>
+                    </li>
+                    <li>
+                        <a href="./contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="historia">
+                <h1>-História-</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea tenetur iure inventore voluptatibus,
                     rerum ex
                     voluptatem quo, dolorem id explicabo magni ratione quas quia tempora laborum dignissimos praesentium
@@ -52,20 +60,9 @@
                     natus
                     nihil
                     nesciunt temporibus, deleniti voluptatum inventore beatae!</p>
-            </div>
-            <div class="trajetoria">
-                <h2>Trajetória</h2>
-                <img src="../assets/img/trajetoria.jpg" alt="Trajetória da empresa" width="500" height="600">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ut asperiores eius qui enim sed nemo
-                    laborum
-                    quam,
-                    sequi ad. Nemo odit repudiandae corrupti animi similique aspernatur tempora nulla. Laudantium nulla
-                    est vel
-                    similique illum natus ullam soluta molestiae distinctio. Dolores dolorum ipsum nisi. Ratione sunt
-                    modi
-            </div>
-            perferendis vitae vel!</p>
-            <div class="valores">
+                    <img src="../assets/img/trajetoria.jpg" alt="Trajetória da empresa" width="500" height="600">
+            </section>
+            <section class="valores">
                 <h3>Valores</h3>
                 <details>
                     <summary>Lealdade</summary>
@@ -93,11 +90,12 @@
                         a
                         expedita nemo odit.</p>
                 </details>
-            </div>
-        </div>
-        <div class="rodape">
+            </section>
+        </main>
+
+        <footer class="rodape">
             <p>Desenvolvido por <strong>Guilherme Dias</strong> &copy; Todos o direitos reservados</p>
-        </div>
+        </footer>
     </body>
 </div>
 
